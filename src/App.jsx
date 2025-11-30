@@ -9,7 +9,7 @@ function App() {
           <div className="header-content">
             <div className="profile-image-container">
               <img 
-                src="/profile.jpg" 
+                src="profile.jpg" 
                 alt="Liu Yang" 
                 className="profile-image"
                 onError={(e) => {
@@ -32,7 +32,7 @@ function App() {
             </div>
             <div className="school-badge-container">
               <img 
-                src="/must-logo.jpeg" 
+                src="must-logo.jpeg" 
                 alt="MUST Logo" 
                 className="school-badge-header"
                 onError={(e) => e.target.style.display = 'none'}
