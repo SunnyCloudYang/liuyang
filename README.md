@@ -86,12 +86,24 @@ To add your profile image and university logo:
    - Will display as a 140px circular photo on the left side of the header
    - Fallback: Shows "LY" initials if no image is provided
 
-2. **School Badge**: Place the MUST logo as `public/must-logo.png`
-   - Recommended: 256x256px PNG (transparent background or white background)
+2. **School Badge**: Place the MUST logo as `public/must-logo.jpeg`
+   - Recommended: 256x256px PNG or JPEG
    - Will display as a 100px circular badge on the right side of the header
    - Fallback: Gracefully hidden if no image is provided
 
-See `IMAGE_SETUP.md` for detailed instructions.
+### Project Feature Images
+
+To add images for your projects:
+
+3. **Douyin Project**: Place as `public/project-douyin.jpg`
+   - Recommended: 400x240px (5:3 ratio)
+   - Will display at 200x120px on the right side of the project card
+
+4. **Charity Project**: Place as `public/project-charity.jpg`
+   - Recommended: 400x240px (5:3 ratio)
+   - Will display at 200x120px on the right side of the project card
+
+See `PROJECT_IMAGES_GUIDE.md` for detailed instructions.
 
 ## Customization
 
